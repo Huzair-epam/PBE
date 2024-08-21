@@ -38,6 +38,26 @@ Our travel recommendation platform will provide a unique social network for trav
 ## Databases:
 - **MySQL** - Relational database management system for storing and managing data.
 
+## Setting Up the Development Environment
+1. Clone the Repository
+   To get started with the Travel Recommendation Platform, clone the repository to your local machine:
+   bashgit clone https://github.com/yourusername/TravelRecommendationPlatform.gitcd TravelRecommendationPlatform
+2. Configure the Database
+   Start your MySQL server.
+   Create a new database named travel_recommendation.
+   sqlCREATE DATABASE travel_recommendation;
+   Update the src/main/resources/application.properties file with your database username and password:
+   propertiesspring.datasource.url=jdbc:mysql://localhost:3306/travel_recommendation?useSSL=false&serverTimezone=UTCspring.datasource.username=your_mysql_usernamespring.datasource.password=your_mysql_password
+3. Build the Application
+   Use Maven to build the application. Navigate to the root directory of the project and run:
+   bashmvn clean install
+   This command will compile the application and run any tests. It will also create an executable JAR file in the target directory.
+4. Run the Application
+   After building the application, you can run it using Maven:
+   bashmvn spring-boot:run
+   Alternatively, you can run the application directly using the JAR file:
+   bashjava -jar target/travelrecommendationplatform-0.0.1-SNAPSHOT.jar
+   The server will start, and the application will be available at http://localhost:8080.
 ## Project Structure
 
 PBE: Root directory of the multi-module Maven project.
