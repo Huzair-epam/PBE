@@ -4,6 +4,7 @@
     <option name="moduleMapping">
       <map>
         <entry key="travel-recommendation-service" value="Travel-service" />
+        <entry key="user-management-service" value="User-Service" />
       </map>
     </option>
   </component>
