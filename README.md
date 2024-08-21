@@ -24,7 +24,6 @@ Our travel recommendation platform will provide a unique social network for trav
 
 ## Languages:
 - **Java 17** - High-performance, scalable, and secure programming language.
-
 ## Frameworks & Libraries:
 - **Spring Framework** - Comprehensive framework for building enterprise-grade applications.
 - **Spring Boot** - Simplified Spring-based application development with embedded server support.
