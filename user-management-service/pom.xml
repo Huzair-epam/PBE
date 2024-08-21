@@ -8,11 +8,11 @@
 		<version>3.3.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
+	<groupId>com.epam.user.management</groupId>
 	<artifactId>user-management-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>User-Service</name>
-	<description>User </description>
+	<name>user-management-service</name>
+	<description>User management</description>
 	<url/>
 	<licenses>
 		<license/>
