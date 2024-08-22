@@ -43,9 +43,9 @@ Our travel recommendation platform will provide a unique social network for trav
 ## 1. Clone the Repository
 To get started with the Travel Recommendation Platform, clone the repository to your local machine:
 
-    git clone https://github.com/yourusername/TravelRecommendationPlatform.git 
+    git clone https://githyd.epam.com/epm-petr/june-10-team-2/travel-recommendations-be.git
 
-    cd TravelRecommendationPlatform 
+    cd travel-recommendations-be 
 
 
 ## 2. Configure the Database
@@ -57,7 +57,7 @@ To get started with the Travel Recommendation Platform, clone the repository to 
 
    Update the src/main/resources/application.properties file with your database username and password:
     
-    propertiesspring.datasource.url=jdbc:mysql://localhost:3306/travel_recommendation?useSSL=false&serverTimezone=UTC
+    properties spring.datasource.url=jdbc:mysql://localhost:3306/travel_recommendation?useSSL=false&serverTimezone=UTC
    
     spring.datasource.username=your_mysql_username
 
@@ -79,6 +79,12 @@ To get started with the Travel Recommendation Platform, clone the repository to 
     java -jar target/travelrecommendationplatform-0.0.1-SNAPSHOT.jar
 
    The server will start, and the application will be available at http://localhost:8080.
+## 5.Running Tests
+  To run the unit and integration tests for the application, use the following Maven command:
+    
+    mvn test
+
+  This command will execute all tests defined in the project and provide a summary of the results.
 ## Project Structure
 
 PBE: Root directory of the multi-module Maven project.
